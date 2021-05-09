@@ -1,30 +1,5 @@
 # URL Lookup Service
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-### Setup
-Create project with virtual environment
-```console
-$ mkdir myproject
-$ cd myproject
-$ python3 -m venv env
-```
-clone git repo
-```
-$ git clone git@github.com:vwedesam/Url-Lookup-Service-Flask-.git
-```
-#### Run the app
-```console
-$ python app.py
-```
-Activate it
-```console
-$ . env/bin/activate
-```
-or on Windows
-```console
-env\Scripts\activate
-```
 ## API Reference
 
 ### URL Lookup
@@ -67,12 +42,12 @@ POST /update_malwares
    
    
 
-3.  in the problem statement, the REST API supports bulk URL updates. JSON is used for the simplicity, CSV will be more efficient.
-4.   ---
-5.   ----
-6.   ---
+3.  In the problem statement, the REST API supports bulk URL updates. JSON is used for the simplicity, CSV will be more efficient.
+4.  If i wake up 3am, the first thing to do is the health check for the app and check the mempry usuage.
+5.  No, the change wont affect anything in app.
+6.  some consideration for the lifecycle of this app are, CI-Continuous Integration, CD-Continuous Deplyment/delivery, CT, Continuous Test, CM- Continuous Monitoring.
 
-5.  i would follow the general standard which is to always base line your service urls with a version.
+7.  I would follow the general standard which is to always base line your service urls with a version.
 
     Eg,
 
